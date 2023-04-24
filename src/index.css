@@ -13,18 +13,32 @@ body {
   padding-top: 0.625em;
   font-family: "Press Start 2P", cursive;
   text-align: center;
+  height: 100%;
 }
 
 body {
   font-weight: 400;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 button {
   font-family: "Press Start 2P", cursive;
   display: block;
-  margin: 0 auto;
+  margin: 3rem auto;
   border: none;
   background: #a80020;
   background: #00b800;
   padding: 0.625em 1.25rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+textarea {
+  width: 90%;
+  height: 10rem;
+  font-family: "Press Start 2P", cursive;
+  background: #00b800;
+  margin: 3rem 0;
 }
